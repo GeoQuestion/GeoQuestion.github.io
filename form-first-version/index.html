@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body class="body">
+    <form class="form" method="POST" action="https://60376bfd5435040017722533.mockapi.io/form">
+               
+                    <label class="form__label" for="name">Введите своё имя</label>
+                    <input class="form__input " required type="text" name="name" id="name" placeholder="Имя *" pattern="[А-Яа-я]*?\s[А-Яа-я]*?\s[А-Яа-я]*">
+                
+              
+                    <label class="form__label" for="surname">Введите свою фамилию</label>
+                    <input class="form__input " required type="text" name="surname" id="surname" placeholder="Фамилия *" pattern="[А-Яа-я]*?\s[А-Яа-я]*?\s[А-Яа-я]*">
+                
+              
+                    <label class="form__label" for="group">Введите свою группу</label>
+                    <input class="form__input " required type="text" name="group" id="group" placeholder="Группа *" pattern="[А-Яа-я]*?\s[А-Яа-я]*?\s[А-Яа-я]*">
+                
+                    <label class="form__label" for="teacher">Выберите преподавателя</label>
+                    <select class="form__select" name="teacher" id="teacher">
+                        <option disabled>Выбрать</option>
+                        <option value="firts_teacher">Иван Сычев</option>
+                        <option value="second_teacher">Ефим Маргин</option>
+                        <option value="third_teacher">Димитрий Лазарев</option>
+                    </select>
+                
+                <button type="submit" class="form__button"><span class="form__button_text_white" >ОК</span></button> 
+                
+                
+                
+                
+                
+    </form>
+    <script src="scripts/index.js"></script>  
+    <script src="scripts/select.js"></script>  
+</body>
+</html>

@@ -1,0 +1,19 @@
+@import url(./__button/form__button.css);
+@import url(./__label/form__label.css);
+@import url(./__input/form__input.css);
+@import url(./__select/form__select.css);
+
+form {
+    height:450px;
+    width: 500px;
+    background-color: #F7F5F9;
+    border-radius: 12px;
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px; 
+    box-sizing: border-box;
+  
+}

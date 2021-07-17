@@ -1,0 +1,12 @@
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    &__text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40%;
+    }
+}

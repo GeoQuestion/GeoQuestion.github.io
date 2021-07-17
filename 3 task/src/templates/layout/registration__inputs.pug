@@ -1,0 +1,17 @@
+include ../components/blue-button.pug
+mixin registration__inputs()
+    section.right-side
+        h3.blue-subtitle добро пожаловать в
+        h2.blue-title название проекта
+        .registration__inputs-container
+            p.placeholder имя
+            input(type="text").default-input
+            p.placeholder пароль
+            input(type="text").eye-input
+            p.placeholder подтверждение пароля
+            input(type="text").eye-input
+            p.placeholder курс
+            select#course(name="course").select 
+            p.placeholder группа
+            select#group(name="group").select
+        +blue-button() 

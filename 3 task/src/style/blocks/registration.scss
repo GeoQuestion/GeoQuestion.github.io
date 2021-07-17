@@ -1,0 +1,11 @@
+.registration{
+    &__background{
+        background-image: url("../images/WP6.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+    &__inputs-container{
+        margin-top: 50px;
+    }
+}

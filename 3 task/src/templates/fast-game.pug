@@ -1,0 +1,17 @@
+include ./layout/head.pug
+include ./layout/fast-game__background.pug
+include ./layout/fast-game__inputs.pug
+block variables
+    
+doctype html
+html(lang='ru')
+    +head(page_title || '', scripts || [])
+
+    body
+        main.main
+            +fast-game__background()
+            +fast-game__inputs()
+             
+            
+
+

@@ -1,0 +1,15 @@
+include ./layout/head.pug
+include ./layout/authentication__background.pug
+include ./layout/authentication__inputs.pug
+block variables
+    
+doctype html
+html(lang='ru')
+    +head(page_title || '', scripts || [])
+
+    body
+        main.main
+            +authentication__background()
+            +authentication__inputs()
+
+            

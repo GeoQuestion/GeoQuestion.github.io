@@ -1,0 +1,11 @@
+include ../components/blue-button.pug
+mixin authentication__inputs()
+    section.right-side
+        h3.blue-subtitle вход в аккаунт
+        h2.blue-title название проекта
+        .authentication__inputs-container
+            p.placeholder email
+            input(type="text").default-input
+            p.placeholder пароль
+            input(type="text").eye-input
+        +blue-button()

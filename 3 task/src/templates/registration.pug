@@ -1,0 +1,16 @@
+include ./layout/head.pug
+include ./layout/registration__background.pug 
+include ./layout/registration__inputs.pug 
+block variables
+    
+doctype html
+html(lang='ru')
+    +head(page_title || '', scripts || [])
+
+    body
+        main.main
+            +registration__background()
+            +registration__inputs()
+
+            
+

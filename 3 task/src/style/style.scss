@@ -1,0 +1,33 @@
+@import "libs";
+@import "constants";
+@import "functions";
+@import "mixins";
+
+//какие-то глобальные стили
+@import "common/fonts";
+@import "common/base";
+
+//Ваши блоки
+@import "blocks/header/header-main.scss";
+@import "blocks/dark-button.scss";
+@import "blocks/body/body-main.scss";
+@import "blocks/pick-button.scss";
+@import "blocks/title-dark.scss";
+@import "blocks/header/header-main.scss";
+@import "blocks/subtitle-dark.scss";
+@import "blocks/reg-link.scss";
+@import "blocks/blue-subtitle.scss";
+@import "blocks/blue-title.scss";
+@import "blocks/white-title.scss";
+@import "blocks/white-subtitle.scss";
+@import "blocks/blue-button.scss";
+@import "blocks/left-side.scss";
+@import "blocks/right-side.scss";
+@import "blocks/fast-game.scss";
+@import "blocks/main/main.scss";
+@import "blocks/default-input.scss";
+@import "blocks/placeholder.scss";
+@import "blocks/select.scss";
+@import "blocks/registration.scss";
+@import "blocks/authentication.scss";
+@import "blocks/eye-input.scss";

@@ -1,0 +1,16 @@
+include ./layout/head.pug
+include ./layout/header-main.pug
+include ./components/pick-button.pug
+block variables
+    
+doctype html
+html(lang='ru')
+    +head(page_title || '', scripts || [])
+
+    body.body-main
+        a.reg-link зарегистрироваться
+        +header-main()
+        main
+            +pick-button()
+
+

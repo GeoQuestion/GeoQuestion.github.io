@@ -1,0 +1,13 @@
+include ../components/blue-button.pug
+mixin fast-game__inputs()
+    section.right-side
+        h3.blue-subtitle быстрая игра
+        h2.blue-title название проекта
+        p.fast-game__paragraph Для того, чтобы перейти к игре в данном #[br] режиме, не нужна регистрация. #[br] Достаточно лишь заполнить следующие #[br] данные о себе:
+        p.placeholder имя
+        input(type="text").default-input
+        p.placeholder курс
+        select#course(name="course").select 
+        p.placeholder группа
+        select#group(name="group").select
+        +blue-button()
